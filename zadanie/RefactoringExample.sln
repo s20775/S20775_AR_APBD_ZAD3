@@ -7,7 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LegacyAppConsumer", "Legacy
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LegacyApp", "LegacyApp\LegacyApp.csproj", "{72364726-3116-4019-A054-6E9AF98BB046}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserServiceTests", "UserServiceTests\UserServiceTests.csproj", "{D17F0E7E-CA0D-4037-8DFD-321A691B1EB0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LgacyAppTests", "UserServiceTests\LgacyAppTests.csproj", "{D17F0E7E-CA0D-4037-8DFD-321A691B1EB0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{72364726-3116-4019-A054-6E9AF98BB046} = {72364726-3116-4019-A054-6E9AF98BB046}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
